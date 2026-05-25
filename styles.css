@@ -1,0 +1,251 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f4ed;
+  --surface: #ffffff;
+  --surface-strong: #e8f4f1;
+  --text: #17211f;
+  --muted: #65706d;
+  --line: #d9dfdb;
+  --accent: #0f766e;
+  --accent-dark: #115e59;
+  --checked: #93aaa4;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+.app {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  padding: max(18px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: var(--accent-dark);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 9vw, 3.8rem);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.icon-button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--accent-dark);
+  font-size: 1.5rem;
+}
+
+.summary {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.summary div {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.summary small {
+  margin-left: 6px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+progress {
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: #dde4df;
+}
+
+progress::-webkit-progress-bar {
+  background: #dde4df;
+}
+
+progress::-webkit-progress-value {
+  background: var(--accent);
+}
+
+progress::-moz-progress-bar {
+  background: var(--accent);
+}
+
+.select-wrap {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+select {
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.toolbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.toolbar button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.shopping-list {
+  display: grid;
+  gap: 12px;
+}
+
+.category {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.category summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+  padding: 0 14px;
+  cursor: pointer;
+  list-style: none;
+  background: var(--surface-strong);
+  font-weight: 900;
+}
+
+.category summary::-webkit-details-marker {
+  display: none;
+}
+
+.category-count {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.items {
+  display: grid;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 12px;
+  align-items: center;
+  min-height: 58px;
+  padding: 10px 14px;
+  border-top: 1px solid var(--line);
+}
+
+.item.hidden {
+  display: none;
+}
+
+.item input {
+  width: 28px;
+  height: 28px;
+  accent-color: var(--accent);
+}
+
+.item-text {
+  min-width: 0;
+}
+
+.item-name {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.item-quantity {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.item.checked .item-name,
+.item.checked .item-quantity {
+  color: var(--checked);
+  text-decoration: line-through;
+}
+
+.empty {
+  color: var(--muted);
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 680px) {
+  .app {
+    padding-top: 30px;
+  }
+
+  .shopping-list {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}

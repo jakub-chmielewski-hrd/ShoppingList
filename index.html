@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f766e" />
+    <title>Lista zakupów</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Dieta</p>
+          <h1>Lista zakupów</h1>
+        </div>
+        <button class="icon-button" id="resetButton" type="button" aria-label="Wyczyść zaznaczenia">
+          ↺
+        </button>
+      </header>
+
+      <section class="summary" aria-live="polite">
+        <div>
+          <span id="doneCount">0</span>/<span id="totalCount">0</span>
+          <small>kupione</small>
+        </div>
+        <progress id="progress" value="0" max="1"></progress>
+      </section>
+
+      <label class="select-wrap">
+        <span>Plan</span>
+        <select id="listSelect"></select>
+      </label>
+
+      <div class="toolbar">
+        <button id="hideCheckedButton" type="button">Ukryj kupione</button>
+        <button id="expandButton" type="button">Zwiń kategorie</button>
+      </div>
+
+      <section id="shoppingList" class="shopping-list"></section>
+      <p id="emptyState" class="empty" hidden>Nie znaleziono listy zakupów.</p>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
