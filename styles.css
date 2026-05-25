@@ -124,6 +124,54 @@ progress::-moz-progress-bar {
   font-weight: 800;
 }
 
+.day-picker {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.day-picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.day-picker-header button {
+  min-height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 10px;
+  background: var(--surface);
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.day-buttons {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.day-buttons button {
+  min-width: 0;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.day-buttons button.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+}
+
 select {
   min-height: 46px;
   border: 1px solid var(--line);

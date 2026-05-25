@@ -435,6 +435,967 @@
             }
           ]
         }
+      ],
+      "days": [
+        {
+          "name": "Poniedziałek",
+          "items": [
+            {
+              "id": "owoce-i-warzywa-truskawki-mrozone-5-7-x-garsc-400g",
+              "name": "Truskawki, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "zbozowe-patki-owsiane-24-x-yzka-240g",
+              "name": "Płatki owsiane",
+              "category": "Zbożowe",
+              "quantity": "110g"
+            },
+            {
+              "id": "nabia-odzywka-biakowa-wpc2-x-miarka-60g",
+              "name": "Odżywka białkowa - WPC",
+              "category": "Nabiał",
+              "quantity": "45g"
+            },
+            {
+              "id": "orzechy-i-nasiona-migday-3-x-yzka-45g",
+              "name": "Migdały",
+              "category": "Orzechy i nasiona",
+              "quantity": "15g"
+            },
+            {
+              "id": "orzechy-i-nasiona-nasiona-chia-8-x-yzeczka-40g",
+              "name": "Nasiona chia",
+              "category": "Orzechy i nasiona",
+              "quantity": "30g"
+            },
+            {
+              "id": "nabia-mleko-uht-1-5-tuszczu-750g",
+              "name": "Mleko UHT, 1,5% tłuszczu",
+              "category": "Nabiał",
+              "quantity": "250g"
+            },
+            {
+              "id": "owoce-i-warzywa-borowki-amerykanskie2-2-x-opakowanie-275g",
+              "name": "Borówki amerykańskie",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "owoce-i-warzywa-maliny-mrozone-5-8-x-garsc-350g",
+              "name": "Maliny, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "zbozowe-makaron-penoziarnisty-230g",
+              "name": "Makaron pełnoziarnisty",
+              "category": "Zbożowe",
+              "quantity": "160g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "10g"
+            },
+            {
+              "id": "owoce-i-warzywa-brokuy-4-5-x-porcja-450g",
+              "name": "Brokuły",
+              "category": "Owoce i warzywa",
+              "quantity": "450g"
+            },
+            {
+              "id": "nabia-smietana-12-tuszczu5-6-x-yzka-100g",
+              "name": "Śmietana, 12% tłuszczu",
+              "category": "Nabiał",
+              "quantity": "100g"
+            },
+            {
+              "id": "owoce-i-warzywa-cebula-2-5-x-sztuka-250g",
+              "name": "Cebula",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "mieso-mieso-z-piersi-kurczaka-bez-skory-2-x-kawaek-200g",
+              "name": "Mięso z piersi kurczaka, bez skóry",
+              "category": "Mięso",
+              "quantity": "200g"
+            },
+            {
+              "id": "nabia-ser-twarogowy-chudy-1-8-x-opakowanie-362g",
+              "name": "Ser twarogowy chudy",
+              "category": "Nabiał",
+              "quantity": "62g"
+            },
+            {
+              "id": "owoce-i-warzywa-szczypiorek-5-x-yzka-25g",
+              "name": "Szczypiorek",
+              "category": "Owoce i warzywa",
+              "quantity": "10g"
+            },
+            {
+              "id": "pieczywo-chleb-zytni-razowy-870g",
+              "name": "Chleb żytni razowy",
+              "category": "Pieczywo",
+              "quantity": "150g"
+            },
+            {
+              "id": "nabia-jaja-kurze-cae-8-x-sztuka-448g",
+              "name": "Jaja kurze całe",
+              "category": "Nabiał",
+              "quantity": "168g"
+            },
+            {
+              "id": "mieso-szynka-z-piersi-kurczaka-75g",
+              "name": "Szynka z piersi kurczaka",
+              "category": "Mięso",
+              "quantity": "45g"
+            },
+            {
+              "id": "nabia-mozzarella-light-312g",
+              "name": "Mozzarella light",
+              "category": "Nabiał",
+              "quantity": "62g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidor-6-5-x-sztuka-780g",
+              "name": "Pomidor",
+              "category": "Owoce i warzywa",
+              "quantity": "140g"
+            }
+          ]
+        },
+        {
+          "name": "Wtorek",
+          "items": [
+            {
+              "id": "zbozowe-patki-owsiane-24-x-yzka-240g",
+              "name": "Płatki owsiane",
+              "category": "Zbożowe",
+              "quantity": "40g"
+            },
+            {
+              "id": "orzechy-i-nasiona-orzechy-woskie-4-x-yzka-60g",
+              "name": "Orzechy włoskie",
+              "category": "Orzechy i nasiona",
+              "quantity": "30g"
+            },
+            {
+              "id": "nabia-skyr-pitny-naturalny-1-x-opakowanie-330g",
+              "name": "Skyr pitny naturalny",
+              "category": "Nabiał",
+              "quantity": "330g"
+            },
+            {
+              "id": "owoce-i-warzywa-maliny-mrozone-5-8-x-garsc-350g",
+              "name": "Maliny, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "owoce-i-warzywa-szczypiorek-5-x-yzka-25g",
+              "name": "Szczypiorek",
+              "category": "Owoce i warzywa",
+              "quantity": "120g"
+            },
+            {
+              "id": "pozostae-tofu-wedzone-270g",
+              "name": "Tofu wędzone",
+              "category": "Pozostałe",
+              "quantity": "90g"
+            },
+            {
+              "id": "zioa-i-przyprawy-zioa-prowansalskie-1-x-yzeczka-3g",
+              "name": "Zioła prowansalskie",
+              "category": "Zioła i przyprawy",
+              "quantity": "3g"
+            },
+            {
+              "id": "pozostae-hummus-0-8-x-opakowanie-130g",
+              "name": "Hummus",
+              "category": "Pozostałe",
+              "quantity": "40g"
+            },
+            {
+              "id": "owoce-i-warzywa-ogorek-zielony-dugi-2-8-x-sztuka-495g",
+              "name": "Ogórek zielony (długi)",
+              "category": "Owoce i warzywa",
+              "quantity": "180g"
+            },
+            {
+              "id": "orzechy-i-nasiona-dynia-pestki-uskane-12-x-yzeczka-60g",
+              "name": "Dynia, pestki, łuskane",
+              "category": "Orzechy i nasiona",
+              "quantity": "10g"
+            },
+            {
+              "id": "owoce-i-warzywa-papryka-czerwona-1-5-x-sztuka-215g",
+              "name": "Papryka czerwona",
+              "category": "Owoce i warzywa",
+              "quantity": "70g"
+            },
+            {
+              "id": "owoce-i-warzywa-marchew-5-x-sztuka-225g",
+              "name": "Marchew",
+              "category": "Owoce i warzywa",
+              "quantity": "90g"
+            },
+            {
+              "id": "owoce-i-warzywa-czosnek-5-x-zabek-25g",
+              "name": "Czosnek",
+              "category": "Owoce i warzywa",
+              "quantity": "5g"
+            },
+            {
+              "id": "nabia-jogurt-naturalny-1-5-t-1-5-x-opakowanie-210g",
+              "name": "Jogurt naturalny (1,5% tł.)",
+              "category": "Nabiał",
+              "quantity": "140g"
+            },
+            {
+              "id": "nabia-ser-twarogowy-chudy-1-8-x-opakowanie-362g",
+              "name": "Ser twarogowy chudy",
+              "category": "Nabiał",
+              "quantity": "100g"
+            },
+            {
+              "id": "owoce-i-warzywa-banan-2-x-sztuka-240g",
+              "name": "Banan",
+              "category": "Owoce i warzywa",
+              "quantity": "120g"
+            },
+            {
+              "id": "zbozowe-maka-pszenna-typ-1850-60g",
+              "name": "Mąka pszenna, typ 1850",
+              "category": "Zbożowe",
+              "quantity": "60g"
+            },
+            {
+              "id": "pozostae-proszek-do-pieczenia-0-7-x-yzeczka-2g",
+              "name": "Proszek do pieczenia",
+              "category": "Pozostałe",
+              "quantity": "2g"
+            },
+            {
+              "id": "nabia-jaja-kurze-cae-8-x-sztuka-448g",
+              "name": "Jaja kurze całe",
+              "category": "Nabiał",
+              "quantity": "56g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "5g"
+            },
+            {
+              "id": "owoce-i-warzywa-truskawki-mrozone-5-7-x-garsc-400g",
+              "name": "Truskawki, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "150g"
+            }
+          ]
+        },
+        {
+          "name": "Środa",
+          "items": [
+            {
+              "id": "owoce-i-warzywa-awokado-1-x-sztuka-140g",
+              "name": "Awokado",
+              "category": "Owoce i warzywa",
+              "quantity": "70g"
+            },
+            {
+              "id": "pieczywo-chleb-zytni-razowy-870g",
+              "name": "Chleb żytni razowy",
+              "category": "Pieczywo",
+              "quantity": "390g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidor-6-5-x-sztuka-780g",
+              "name": "Pomidor",
+              "category": "Owoce i warzywa",
+              "quantity": "140g"
+            },
+            {
+              "id": "nabia-mozzarella-light-312g",
+              "name": "Mozzarella light",
+              "category": "Nabiał",
+              "quantity": "62g"
+            },
+            {
+              "id": "owoce-i-warzywa-rukola-9-x-garsc-180g",
+              "name": "Rukola",
+              "category": "Owoce i warzywa",
+              "quantity": "40g"
+            },
+            {
+              "id": "orzechy-i-nasiona-dynia-pestki-uskane-12-x-yzeczka-60g",
+              "name": "Dynia, pestki, łuskane",
+              "category": "Orzechy i nasiona",
+              "quantity": "10g"
+            },
+            {
+              "id": "orzechy-i-nasiona-orzechy-woskie-4-x-yzka-60g",
+              "name": "Orzechy włoskie",
+              "category": "Orzechy i nasiona",
+              "quantity": "130g"
+            },
+            {
+              "id": "nabia-skyr-naturalny-jogurt-typu-islandzkiego-3-x-sztuka-450g",
+              "name": "Skyr naturalny, jogurt typu islandzkiego",
+              "category": "Nabiał",
+              "quantity": "150g"
+            },
+            {
+              "id": "owoce-i-warzywa-truskawki-mrozone-5-7-x-garsc-400g",
+              "name": "Truskawki, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "50g"
+            },
+            {
+              "id": "owoce-i-warzywa-borowki-amerykanskie2-2-x-opakowanie-275g",
+              "name": "Borówki amerykańskie",
+              "category": "Owoce i warzywa",
+              "quantity": "50g"
+            },
+            {
+              "id": "zbozowe-patki-owsiane-24-x-yzka-240g",
+              "name": "Płatki owsiane",
+              "category": "Zbożowe",
+              "quantity": "40g"
+            },
+            {
+              "id": "straczkowe-soczewica-czerwona-nasiona-suche-80g",
+              "name": "Soczewica czerwona, nasiona suche",
+              "category": "Strączkowe",
+              "quantity": "80g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "10g"
+            },
+            {
+              "id": "owoce-i-warzywa-cukinia-2-x-sztuka-600g",
+              "name": "Cukinia",
+              "category": "Owoce i warzywa",
+              "quantity": "300g"
+            },
+            {
+              "id": "owoce-i-warzywa-marchew-5-x-sztuka-225g",
+              "name": "Marchew",
+              "category": "Owoce i warzywa",
+              "quantity": "135g"
+            },
+            {
+              "id": "owoce-i-warzywa-cebula-2-5-x-sztuka-250g",
+              "name": "Cebula",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "owoce-i-warzywa-suszone-pomidory-5-x-sztuka-35g",
+              "name": "Suszone pomidory",
+              "category": "Owoce i warzywa",
+              "quantity": "35g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidory-z-puszki-krojone-8-x-porcja-800g",
+              "name": "Pomidory z puszki (krojone)",
+              "category": "Owoce i warzywa",
+              "quantity": "400g"
+            },
+            {
+              "id": "owoce-i-warzywa-ogorek-zielony-dugi-2-8-x-sztuka-495g",
+              "name": "Ogórek zielony (długi)",
+              "category": "Owoce i warzywa",
+              "quantity": "45g"
+            },
+            {
+              "id": "owoce-i-warzywa-pietruszka-liscie-3-x-yzka-36g",
+              "name": "Pietruszka, liście",
+              "category": "Owoce i warzywa",
+              "quantity": "12g"
+            },
+            {
+              "id": "zioa-i-przyprawy-czosnek-granulowany-1-x-szczypta-1g",
+              "name": "Czosnek granulowany",
+              "category": "Zioła i przyprawy",
+              "quantity": "1g"
+            },
+            {
+              "id": "nabia-serek-do-smarowania-typu-almette-7-x-yzeczka-70g",
+              "name": "Serek do smarowania typu Almette",
+              "category": "Nabiał",
+              "quantity": "30g"
+            },
+            {
+              "id": "pieczywo-buki-grahamki-3-4-x-sztuka-235g",
+              "name": "Bułki grahamki",
+              "category": "Pieczywo",
+              "quantity": "130g"
+            },
+            {
+              "id": "pozostae-tofu-wedzone-270g",
+              "name": "Tofu wędzone",
+              "category": "Pozostałe",
+              "quantity": "90g"
+            },
+            {
+              "id": "pozostae-musztarda-2-x-yzka-40g",
+              "name": "Musztarda",
+              "category": "Pozostałe",
+              "quantity": "40g"
+            },
+            {
+              "id": "pozostae-sos-sojowy-2-x-yzka-20g",
+              "name": "Sos sojowy",
+              "category": "Pozostałe",
+              "quantity": "20g"
+            },
+            {
+              "id": "owoce-i-warzywa-papryka-czerwona-1-5-x-sztuka-215g",
+              "name": "Papryka czerwona",
+              "category": "Owoce i warzywa",
+              "quantity": "75g"
+            }
+          ]
+        },
+        {
+          "name": "Czwartek",
+          "items": [
+            {
+              "id": "zioa-i-przyprawy-cynamon-5-x-szczypta-5g",
+              "name": "Cynamon",
+              "category": "Zioła i przyprawy",
+              "quantity": "53g"
+            },
+            {
+              "id": "owoce-i-warzywa-maliny-mrozone-5-8-x-garsc-350g",
+              "name": "Maliny, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "150g"
+            },
+            {
+              "id": "pozostae-woda-0-6-x-szklanka-150g",
+              "name": "Woda",
+              "category": "Pozostałe",
+              "quantity": "150g"
+            },
+            {
+              "id": "nabia-skyr-waniliowy-450g",
+              "name": "Skyr waniliowy",
+              "category": "Nabiał",
+              "quantity": "300g"
+            },
+            {
+              "id": "orzechy-i-nasiona-migday-3-x-yzka-45g",
+              "name": "Migdały",
+              "category": "Orzechy i nasiona",
+              "quantity": "15g"
+            },
+            {
+              "id": "zbozowe-tortilla-penoziarnista-5-x-sztuka-305g",
+              "name": "Tortilla pełnoziarnista",
+              "category": "Zbożowe",
+              "quantity": "122g"
+            },
+            {
+              "id": "pozostae-hummus-0-8-x-opakowanie-130g",
+              "name": "Hummus",
+              "category": "Pozostałe",
+              "quantity": "50g"
+            },
+            {
+              "id": "nabia-ser-gouda-tusty-75g",
+              "name": "Ser, gouda tłusty",
+              "category": "Nabiał",
+              "quantity": "30g"
+            },
+            {
+              "id": "mieso-szynka-z-piersi-kurczaka-75g",
+              "name": "Szynka z piersi kurczaka",
+              "category": "Mięso",
+              "quantity": "30g"
+            },
+            {
+              "id": "owoce-i-warzywa-rukola-9-x-garsc-180g",
+              "name": "Rukola",
+              "category": "Owoce i warzywa",
+              "quantity": "20g"
+            },
+            {
+              "id": "owoce-i-warzywa-ogorek-zielony-dugi-2-8-x-sztuka-495g",
+              "name": "Ogórek zielony (długi)",
+              "category": "Owoce i warzywa",
+              "quantity": "180g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidor-6-5-x-sztuka-780g",
+              "name": "Pomidor",
+              "category": "Owoce i warzywa",
+              "quantity": "140g"
+            },
+            {
+              "id": "owoce-i-warzywa-pietruszka-liscie-3-x-yzka-36g",
+              "name": "Pietruszka, liście",
+              "category": "Owoce i warzywa",
+              "quantity": "24g"
+            },
+            {
+              "id": "orzechy-i-nasiona-nasiona-chia-8-x-yzeczka-40g",
+              "name": "Nasiona chia",
+              "category": "Orzechy i nasiona",
+              "quantity": "10g"
+            },
+            {
+              "id": "nabia-jogurt-pitny-o-smaku-truskawki-i-maliny-yopro-1-x-opakowanie-270g",
+              "name": "Jogurt pitny o smaku truskawki i maliny, YoPRO",
+              "category": "Nabiał",
+              "quantity": "270g"
+            },
+            {
+              "id": "owoce-i-warzywa-szparagi-10-x-sztuka-300g",
+              "name": "Szparagi",
+              "category": "Owoce i warzywa",
+              "quantity": "150g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "5g"
+            },
+            {
+              "id": "nabia-jaja-kurze-cae-8-x-sztuka-448g",
+              "name": "Jaja kurze całe",
+              "category": "Nabiał",
+              "quantity": "112g"
+            },
+            {
+              "id": "pieczywo-buki-grahamki-3-4-x-sztuka-235g",
+              "name": "Bułki grahamki",
+              "category": "Pieczywo",
+              "quantity": "105g"
+            },
+            {
+              "id": "owoce-i-warzywa-szpinak-4-x-garsc-100g",
+              "name": "Szpinak",
+              "category": "Owoce i warzywa",
+              "quantity": "50g"
+            },
+            {
+              "id": "owoce-i-warzywa-szczypiorek-5-x-yzka-25g",
+              "name": "Szczypiorek",
+              "category": "Owoce i warzywa",
+              "quantity": "10g"
+            }
+          ]
+        },
+        {
+          "name": "Piątek",
+          "items": [
+            {
+              "id": "owoce-i-warzywa-rzodkiewka-8-x-sztuka-120g",
+              "name": "Rzodkiewka",
+              "category": "Owoce i warzywa",
+              "quantity": "242g"
+            },
+            {
+              "id": "nabia-ser-twarogowy-chudy-1-8-x-opakowanie-362g",
+              "name": "Ser twarogowy chudy",
+              "category": "Nabiał",
+              "quantity": "100g"
+            },
+            {
+              "id": "orzechy-i-nasiona-dynia-pestki-uskane-12-x-yzeczka-60g",
+              "name": "Dynia, pestki, łuskane",
+              "category": "Orzechy i nasiona",
+              "quantity": "15g"
+            },
+            {
+              "id": "owoce-i-warzywa-rukola-9-x-garsc-180g",
+              "name": "Rukola",
+              "category": "Owoce i warzywa",
+              "quantity": "40g"
+            },
+            {
+              "id": "owoce-i-warzywa-szczypiorek-5-x-yzka-25g",
+              "name": "Szczypiorek",
+              "category": "Owoce i warzywa",
+              "quantity": "5g"
+            },
+            {
+              "id": "zioa-i-przyprawy-pieprz-czarny-mielony-2-x-szczypta-2g",
+              "name": "Pieprz czarny mielony",
+              "category": "Zioła i przyprawy",
+              "quantity": "1g"
+            },
+            {
+              "id": "nabia-skyr-naturalny-jogurt-typu-islandzkiego-3-x-sztuka-450g",
+              "name": "Skyr naturalny, jogurt typu islandzkiego",
+              "category": "Nabiał",
+              "quantity": "300g"
+            },
+            {
+              "id": "owoce-i-warzywa-kiwi-2-x-sztuka-150g",
+              "name": "Kiwi",
+              "category": "Owoce i warzywa",
+              "quantity": "150g"
+            },
+            {
+              "id": "pozostae-musli-fruits-nuts-crownfield-1-8-x-porcja-70g",
+              "name": "Musli fruits & nuts Crownfield",
+              "category": "Pozostałe",
+              "quantity": "70g"
+            },
+            {
+              "id": "owoce-i-warzywa-truskawki-mrozone-5-7-x-garsc-400g",
+              "name": "Truskawki, mrożone",
+              "category": "Owoce i warzywa",
+              "quantity": "100g"
+            },
+            {
+              "id": "straczkowe-makaron-z-soczewicy-2-9-x-szklanka-200g",
+              "name": "Makaron z soczewicy",
+              "category": "Strączkowe",
+              "quantity": "200g"
+            },
+            {
+              "id": "owoce-i-warzywa-czosnek-5-x-zabek-25g",
+              "name": "Czosnek",
+              "category": "Owoce i warzywa",
+              "quantity": "10g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "10g"
+            },
+            {
+              "id": "pozostae-skorka-z-cytryny-starta-2-x-yzeczka-6g",
+              "name": "Skórka z cytryny (starta)",
+              "category": "Pozostałe",
+              "quantity": "6g"
+            },
+            {
+              "id": "owoce-i-warzywa-cukinia-2-x-sztuka-600g",
+              "name": "Cukinia",
+              "category": "Owoce i warzywa",
+              "quantity": "300g"
+            },
+            {
+              "id": "owoce-i-warzywa-fasolka-szparagowa-mrozona-0-7-x-opakowanie-300g",
+              "name": "Fasolka szparagowa, mrożona",
+              "category": "Owoce i warzywa",
+              "quantity": "300g"
+            },
+            {
+              "id": "nabia-mozzarella-light-312g",
+              "name": "Mozzarella light",
+              "category": "Nabiał",
+              "quantity": "125g"
+            },
+            {
+              "id": "nabia-serek-wiejski-light-2-x-sztuka-300g",
+              "name": "Serek wiejski light.",
+              "category": "Nabiał",
+              "quantity": "150g"
+            },
+            {
+              "id": "zioa-i-przyprawy-cynamon-5-x-szczypta-5g",
+              "name": "Cynamon",
+              "category": "Zioła i przyprawy",
+              "quantity": "2g"
+            },
+            {
+              "id": "owoce-i-warzywa-jabko-2-x-sztuka-300g",
+              "name": "Jabłko",
+              "category": "Owoce i warzywa",
+              "quantity": "300g"
+            },
+            {
+              "id": "zbozowe-kasza-jaglana-75g",
+              "name": "Kasza jaglana",
+              "category": "Zbożowe",
+              "quantity": "75g"
+            },
+            {
+              "id": "nabia-mleko-uht-1-5-tuszczu-750g",
+              "name": "Mleko UHT, 1,5% tłuszczu",
+              "category": "Nabiał",
+              "quantity": "250g"
+            },
+            {
+              "id": "nabia-odzywka-biakowa-wpc2-x-miarka-60g",
+              "name": "Odżywka białkowa - WPC",
+              "category": "Nabiał",
+              "quantity": "15g"
+            },
+            {
+              "id": "orzechy-i-nasiona-migday-3-x-yzka-45g",
+              "name": "Migdały",
+              "category": "Orzechy i nasiona",
+              "quantity": "15g"
+            }
+          ]
+        },
+        {
+          "name": "Sobota",
+          "items": [
+            {
+              "id": "pieczywo-bajgiel-z-sezamem-2-x-sztuka-150g",
+              "name": "Bajgiel z sezamem",
+              "category": "Pieczywo",
+              "quantity": "150g"
+            },
+            {
+              "id": "pozostae-pesto-zielone-z-bazylii-2-5-x-yzka-50g",
+              "name": "Pesto zielone z bazylii",
+              "category": "Pozostałe",
+              "quantity": "20g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidor-6-5-x-sztuka-780g",
+              "name": "Pomidor",
+              "category": "Owoce i warzywa",
+              "quantity": "240g"
+            },
+            {
+              "id": "owoce-i-warzywa-szpinak-4-x-garsc-100g",
+              "name": "Szpinak",
+              "category": "Owoce i warzywa",
+              "quantity": "50g"
+            },
+            {
+              "id": "nabia-mozzarella-light-312g",
+              "name": "Mozzarella light",
+              "category": "Nabiał",
+              "quantity": "62g"
+            },
+            {
+              "id": "owoce-i-warzywa-awokado-1-x-sztuka-140g",
+              "name": "Awokado",
+              "category": "Owoce i warzywa",
+              "quantity": "75g"
+            },
+            {
+              "id": "nabia-jogurt-naturalny-1-5-t-1-5-x-opakowanie-210g",
+              "name": "Jogurt naturalny (1,5% tł.)",
+              "category": "Nabiał",
+              "quantity": "70g"
+            },
+            {
+              "id": "pieczywo-buka-penoziarnista-2-5-x-sztuka-162g",
+              "name": "Bułka pełnoziarnista",
+              "category": "Pieczywo",
+              "quantity": "98g"
+            },
+            {
+              "id": "nabia-jaja-kurze-cae-8-x-sztuka-448g",
+              "name": "Jaja kurze całe",
+              "category": "Nabiał",
+              "quantity": "112g"
+            },
+            {
+              "id": "owoce-i-warzywa-rukola-9-x-garsc-180g",
+              "name": "Rukola",
+              "category": "Owoce i warzywa",
+              "quantity": "40g"
+            },
+            {
+              "id": "owoce-i-warzywa-borowki-amerykanskie2-2-x-opakowanie-275g",
+              "name": "Borówki amerykańskie",
+              "category": "Owoce i warzywa",
+              "quantity": "125g"
+            },
+            {
+              "id": "nabia-skyr-waniliowy-450g",
+              "name": "Skyr waniliowy",
+              "category": "Nabiał",
+              "quantity": "150g"
+            },
+            {
+              "id": "owoce-i-warzywa-szparagi-10-x-sztuka-300g",
+              "name": "Szparagi",
+              "category": "Owoce i warzywa",
+              "quantity": "215g"
+            },
+            {
+              "id": "pozostae-roslinny-burger-dobra-kaloria-1-x-sztuka-85g",
+              "name": "Roślinny burger Dobra Kaloria",
+              "category": "Pozostałe",
+              "quantity": "85g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "5g"
+            },
+            {
+              "id": "pozostae-keczup-3-x-yzka-45g",
+              "name": "Keczup",
+              "category": "Pozostałe",
+              "quantity": "15g"
+            }
+          ]
+        },
+        {
+          "name": "Niedziela",
+          "items": [
+            {
+              "id": "zbozowe-tortilla-penoziarnista-5-x-sztuka-305g",
+              "name": "Tortilla pełnoziarnista",
+              "category": "Zbożowe",
+              "quantity": "61g"
+            },
+            {
+              "id": "nabia-serek-do-smarowania-typu-almette-7-x-yzeczka-70g",
+              "name": "Serek do smarowania typu Almette",
+              "category": "Nabiał",
+              "quantity": "40g"
+            },
+            {
+              "id": "nabia-ser-gouda-tusty-75g",
+              "name": "Ser, gouda tłusty",
+              "category": "Nabiał",
+              "quantity": "45g"
+            },
+            {
+              "id": "pozostae-keczup-3-x-yzka-45g",
+              "name": "Keczup",
+              "category": "Pozostałe",
+              "quantity": "30g"
+            },
+            {
+              "id": "owoce-i-warzywa-ogorek-zielony-dugi-2-8-x-sztuka-495g",
+              "name": "Ogórek zielony (długi)",
+              "category": "Owoce i warzywa",
+              "quantity": "90g"
+            },
+            {
+              "id": "owoce-i-warzywa-papryka-czerwona-1-5-x-sztuka-215g",
+              "name": "Papryka czerwona",
+              "category": "Owoce i warzywa",
+              "quantity": "70g"
+            },
+            {
+              "id": "owoce-i-warzywa-rukola-9-x-garsc-180g",
+              "name": "Rukola",
+              "category": "Owoce i warzywa",
+              "quantity": "40g"
+            },
+            {
+              "id": "orzechy-i-nasiona-dynia-pestki-uskane-12-x-yzeczka-60g",
+              "name": "Dynia, pestki, łuskane",
+              "category": "Orzechy i nasiona",
+              "quantity": "25g"
+            },
+            {
+              "id": "owoce-i-warzywa-gruszka-1-x-sztuka-130g",
+              "name": "Gruszka",
+              "category": "Owoce i warzywa",
+              "quantity": "130g"
+            },
+            {
+              "id": "tuszcze-oliwa-z-oliwek-11-x-yzeczka-55g",
+              "name": "Oliwa z oliwek",
+              "category": "Tłuszcze",
+              "quantity": "10g"
+            },
+            {
+              "id": "owoce-i-warzywa-cebula-2-5-x-sztuka-250g",
+              "name": "Cebula",
+              "category": "Owoce i warzywa",
+              "quantity": "50g"
+            },
+            {
+              "id": "pozostae-tofu-wedzone-270g",
+              "name": "Tofu wędzone",
+              "category": "Pozostałe",
+              "quantity": "90g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidory-z-puszki-krojone-8-x-porcja-800g",
+              "name": "Pomidory z puszki (krojone)",
+              "category": "Owoce i warzywa",
+              "quantity": "400g"
+            },
+            {
+              "id": "straczkowe-fasola-biaa-konserwowa-6-x-yzka-120g",
+              "name": "Fasola biała (konserwowa)",
+              "category": "Strączkowe",
+              "quantity": "120g"
+            },
+            {
+              "id": "pieczywo-chleb-zytni-razowy-870g",
+              "name": "Chleb żytni razowy",
+              "category": "Pieczywo",
+              "quantity": "210g"
+            },
+            {
+              "id": "owoce-i-warzywa-czosnek-5-x-zabek-25g",
+              "name": "Czosnek",
+              "category": "Owoce i warzywa",
+              "quantity": "5g"
+            },
+            {
+              "id": "straczkowe-ciecierzyca-w-zalewie-6-x-yzka-120g",
+              "name": "Ciecierzyca (w zalewie)",
+              "category": "Strączkowe",
+              "quantity": "120g"
+            },
+            {
+              "id": "pozostae-pesto-zielone-z-bazylii-2-5-x-yzka-50g",
+              "name": "Pesto zielone z bazylii",
+              "category": "Pozostałe",
+              "quantity": "30g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidor-6-5-x-sztuka-780g",
+              "name": "Pomidor",
+              "category": "Owoce i warzywa",
+              "quantity": "120g"
+            },
+            {
+              "id": "nabia-serek-wiejski-light-2-x-sztuka-300g",
+              "name": "Serek wiejski light.",
+              "category": "Nabiał",
+              "quantity": "150g"
+            },
+            {
+              "id": "owoce-i-warzywa-pomidory-koktajlowe-0-8-x-opakowanie-200g",
+              "name": "Pomidory koktajlowe",
+              "category": "Owoce i warzywa",
+              "quantity": "200g"
+            },
+            {
+              "id": "zioa-i-przyprawy-bazylia-swieza-4-x-lisc-4g",
+              "name": "Bazylia (świeża)",
+              "category": "Zioła i przyprawy",
+              "quantity": "4g"
+            },
+            {
+              "id": "zioa-i-przyprawy-pieprz-czarny-mielony-2-x-szczypta-2g",
+              "name": "Pieprz czarny mielony",
+              "category": "Zioła i przyprawy",
+              "quantity": "1g"
+            },
+            {
+              "id": "pozostae-hummus-0-8-x-opakowanie-130g",
+              "name": "Hummus",
+              "category": "Pozostałe",
+              "quantity": "40g"
+            }
+          ]
+        }
       ]
     }
   ]

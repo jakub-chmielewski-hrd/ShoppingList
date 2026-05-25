@@ -1,6 +1,7 @@
 const state = {
   data: null,
   currentListId: "",
+  selectedDays: new Set(),
   checked: new Set(),
   hideChecked: false,
   collapsed: false,
@@ -8,6 +9,8 @@ const state = {
 
 const els = {
   listSelect: document.querySelector("#listSelect"),
+  dayButtons: document.querySelector("#dayButtons"),
+  allDaysButton: document.querySelector("#allDaysButton"),
   shoppingList: document.querySelector("#shoppingList"),
   emptyState: document.querySelector("#emptyState"),
   doneCount: document.querySelector("#doneCount"),
@@ -22,6 +25,10 @@ function storageKey() {
   return `shopping-list:${state.currentListId}:checked`;
 }
 
+function daysStorageKey() {
+  return `shopping-list:${state.currentListId}:days`;
+}
+
 function loadChecked() {
   const stored = localStorage.getItem(storageKey());
   state.checked = new Set(stored ? JSON.parse(stored) : []);
@@ -29,6 +36,18 @@ function loadChecked() {
 
 function saveChecked() {
   localStorage.setItem(storageKey(), JSON.stringify([...state.checked]));
+}
+
+function loadSelectedDays() {
+  const list = currentList();
+  const allDays = list?.days?.map((day) => day.name) || [];
+  const stored = localStorage.getItem(daysStorageKey());
+  const selected = stored ? JSON.parse(stored).filter((day) => allDays.includes(day)) : allDays;
+  state.selectedDays = new Set(selected.length ? selected : allDays);
+}
+
+function saveSelectedDays() {
+  localStorage.setItem(daysStorageKey(), JSON.stringify([...state.selectedDays]));
 }
 
 function currentList() {
@@ -40,10 +59,52 @@ function itemKey(categoryName, item) {
 }
 
 function allItems(list = currentList()) {
-  if (!list) return [];
-  return list.categories.flatMap((category) =>
+  return visibleCategories(list).flatMap((category) =>
     category.items.map((item) => ({ categoryName: category.name, item })),
   );
+}
+
+function visibleCategories(list = currentList()) {
+  if (!list) return [];
+  if (!list.days?.length) return list.categories;
+
+  const categoryOrder = list.categories.map((category) => category.name);
+  const aggregates = new Map();
+
+  list.days
+    .filter((day) => state.selectedDays.has(day.name))
+    .flatMap((day) => day.items)
+    .forEach((item) => {
+      const key = `${item.category}:${item.id}`;
+      const grams = Number.parseInt(item.quantity, 10);
+      const current = aggregates.get(key) || {
+        id: item.id,
+        name: item.name,
+        category: item.category,
+        grams: 0,
+        quantities: [],
+      };
+      if (Number.isFinite(grams) && item.quantity.endsWith("g")) {
+        current.grams += grams;
+      } else {
+        current.quantities.push(item.quantity);
+      }
+      aggregates.set(key, current);
+    });
+
+  return categoryOrder
+    .map((categoryName) => {
+      const items = [...aggregates.values()]
+        .filter((item) => item.category === categoryName)
+        .map((item) => ({
+          id: item.id,
+          name: item.name,
+          quantity: item.grams ? `${item.grams}g` : item.quantities.join(", "),
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name, "pl"));
+      return { name: categoryName, items };
+    })
+    .filter((category) => category.items.length);
 }
 
 function updateSummary() {
@@ -68,8 +129,36 @@ function renderOptions() {
   );
 }
 
+function renderDayButtons() {
+  const list = currentList();
+  const days = list?.days || [];
+  els.dayButtons.replaceChildren(
+    ...days.map((day) => {
+      const button = document.createElement("button");
+      const active = state.selectedDays.has(day.name);
+      button.type = "button";
+      button.className = active ? "active" : "";
+      button.textContent = day.name.slice(0, 3);
+      button.title = day.name;
+      button.setAttribute("aria-pressed", String(active));
+      button.addEventListener("click", () => {
+        if (state.selectedDays.has(day.name)) {
+          state.selectedDays.delete(day.name);
+        } else {
+          state.selectedDays.add(day.name);
+        }
+        saveSelectedDays();
+        renderDayButtons();
+        renderList();
+      });
+      return button;
+    }),
+  );
+}
+
 function renderList() {
   const list = currentList();
+  const categories = visibleCategories(list);
   els.shoppingList.replaceChildren();
   els.emptyState.hidden = Boolean(list);
   if (!list) {
@@ -77,7 +166,12 @@ function renderList() {
     return;
   }
 
-  const nodes = list.categories.map((category) => {
+  els.emptyState.hidden = categories.length > 0;
+  if (!categories.length) {
+    els.emptyState.textContent = "Wybierz przynajmniej jeden dzień.";
+  }
+
+  const nodes = categories.map((category) => {
     const details = document.createElement("details");
     details.className = "category";
     details.open = !state.collapsed;
@@ -143,6 +237,18 @@ function bindControls() {
   els.listSelect.addEventListener("change", () => {
     state.currentListId = els.listSelect.value;
     loadChecked();
+    loadSelectedDays();
+    renderDayButtons();
+    renderList();
+  });
+
+  els.allDaysButton.addEventListener("click", () => {
+    const list = currentList();
+    const days = list?.days?.map((day) => day.name) || [];
+    const allSelected = days.every((day) => state.selectedDays.has(day));
+    state.selectedDays = new Set(allSelected ? [] : days);
+    saveSelectedDays();
+    renderDayButtons();
     renderList();
   });
 
@@ -175,7 +281,9 @@ async function init() {
   state.currentListId = state.data.lists[0]?.id || "";
   renderOptions();
   loadChecked();
+  loadSelectedDays();
   bindControls();
+  renderDayButtons();
   renderList();
 }
 
