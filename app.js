@@ -197,6 +197,7 @@ function renderList() {
       checkbox.type = "checkbox";
       checkbox.checked = checked;
       checkbox.addEventListener("change", () => {
+        const scrollY = window.scrollY;
         if (checkbox.checked) {
           state.checked.add(key);
         } else {
@@ -204,6 +205,7 @@ function renderList() {
         }
         saveChecked();
         renderList();
+        requestAnimationFrame(() => window.scrollTo({ top: scrollY }));
       });
 
       const text = document.createElement("span");
